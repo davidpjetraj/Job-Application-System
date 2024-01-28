@@ -1,0 +1,479 @@
+*{
+  /* background-color: #D9D9D9; */
+}    
+.body-home{
+  background-color: #D9D9D9;
+}
+nav{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #D9D9D9;
+}
+ul {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+
+.active {
+    color: rgba(0, 41, 255, 1);
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  li a:hover {
+    background-color:rgba(0, 41, 255, 1);
+    color: black;
+  }
+  .header-right{
+    float: right;
+    margin-top: -66px;
+  }
+  .header-right p{
+    float: right;
+  }
+
+  .dropbtn {
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #D9D9D9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+  background-color: rgba(0, 41, 255, 1);
+  color: white;
+}
+
+.dropbtn-1 {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+main{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.contact{
+  display: block;
+  text-align: center;
+  align-items: center;
+  height: 10px;
+  width: 10;
+  padding: 10px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+section .menu{
+  display: inline-block;
+  align-items: center;
+  width: 400px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: white; 
+}
+section{
+  background-color: white;
+  height: 52px;
+  border: solid 1px;
+  width: 600px;
+  margin-left: 150px;
+}
+section .menu input{
+  padding: 7px;
+  border: none;
+  width: 380px;
+}
+.menu h4{
+  margin-top: 15px;
+  font-weight: bold;
+  float: left;
+  font-size: large;
+}
+.menu input{
+  background-color: white;
+}
+.menu .logo{
+  padding: 10px;
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+#btn-login {
+  color: rgba(0, 41, 255, 1);
+  cursor: pointer;
+  text-decoration: none;
+  border: solid 1 rgba(0, 41, 255, 1);
+  border-radius: 3px;
+  padding: 10px;
+  width: 80px;
+  background-color: white;
+}
+#btn-login a{
+  color: rgba(0, 41, 255, 1);
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+}
+#btn-post-job a{
+  background-color: rgba(0, 41, 255, 1);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+#btn-post-job {
+  background-color: rgba(0, 41, 255, 1);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  border:none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 100px;
+}
+.btn{
+  margin-top: -50px;
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border:none;
+  border-radius: 3px;
+  padding: 5px;
+}
+.body-home h1{
+  text-align:justify;
+  padding: 100px;
+}
+.wallpaper img{
+  float: right;
+}
+.search-job{
+  background-color: white;
+  width: 50%;
+  height: 60px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.search-job i{
+  background-color: white;
+}
+.live-activity{
+  display: inline-block;
+  padding: 20px;
+  width: 500px;
+}
+.live-activity img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.live-job{
+  width: 220px;
+  height: 72px;
+  background-color: white;
+  border-radius: 5px;
+}
+.live-companies{
+  margin-top: -72px;
+  margin-left: 260px;
+  width: 220px;
+  height: 72px;
+  background-color: white;
+  border-radius: 5px;
+}
+.live-candidate{
+  margin-top: -72px;
+  margin-left: 500px;
+  width: 220px;
+  height: 72px;
+  background-color: white;
+  border-radius: 5px;
+}
+.live-jobs{
+  margin-top: -72px;
+  margin-left: 750px;
+  width: 220px;
+  height: 72px;
+  background-color: white;
+  border-radius: 5px;
+}
+.numra p{
+  background-color: white;
+  text-align: center;
+  margin-top: -65px;
+  font-weight: bold;
+}
+.jobs p{
+  background-color: white;
+  margin-top: -10px;
+  text-align: center;
+  font-weight: bold;
+  color: gray;
+}
+.findbtn{
+  background-color: rgba(0, 41, 255, 1);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  float: right;
+  margin: 10px;
+  width: 100px;
+  border: 0;
+  border-radius: 5px;
+}
+.material-icons{
+  /* margin: 15px 10px 0px 10px; */
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.material-icons .location{
+  margin-left: 30px;
+}
+.tittle{
+  border:0;
+  padding: 10px;
+  background-color: white;
+  width: 200px;
+}
+.location{
+  border:0;
+  padding: 10px;
+  background-color: white;
+  width: 200px;
+}
+.body-home h1{
+  font-size:xx-large ;
+}
+
+.body-home{
+  background-color: #D9D9D9;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+/*-------------------------------*/
+
+.menu .bell i{
+  margin-right: 50px;
+  display: inline-block;
+  float: right;
+  margin-top: -35px;
+}
+.menu .profile i{
+  display: inline-block;
+  float: right;
+  margin-top: -35px;
+  margin-right: 10px;
+}
+.box{
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 10px;
+}
+.box input{
+  margin-bottom: 17px;
+  border: none;
+  padding: 5px;
+  width: 300px;
+}
+.search-box{
+  border: solid 1px;
+  width: 650px;
+  float: left;
+  border-radius: 5px;
+}
+.location-box{
+  border: solid 1px;
+  width: 650px;
+  float: right;
+  border-radius: 5px;
+}
+.find-job{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  height: 400px;
+}
+.logo-job{
+  height: 30px;
+  width: 30px;
+}
+
+.find-job-details{
+  display: inline-block;
+  font-size: small;
+  margin-left: 15px;
+  margin-top: 5px;
+
+}
+.find-job-details .employer{
+  font-size: medium;
+}
+.find-job-details .work-time{
+  margin-top: 2px;
+}
+.find-job-details .salary{
+  margin-top: -10px;
+}
+
+img .logo-job{
+  display: inline;
+  float: left;
+}
+.find-job-details .name{
+  margin-left: 50px;
+  margin-top: -40px;
+  font-weight: bold;
+}
+.find-job-details .location-details{
+  margin-left: 50px;
+  margin-top: -10px;
+}
+.find-job-bookmark{
+  float: right;
+  margin-top: -30px;
+  margin-right: -108px;
+}
+.job-1{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 30px;
+}
+.job-2{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 350px;
+  margin-top: -120px;
+}
+.job-3{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 670px;
+  margin-top: -120px;
+}
+.job-4{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 990px;
+  margin-top: -120px;
+}
+.job-5{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.job-6{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 350px;
+  margin-top: -120px;
+}
+.job-7{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 670px;
+  margin-top: -120px;
+}
+.job-8{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 990px;
+  margin-top: -120px;
+}
+.job-9{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.job-10{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 350px;
+  margin-top: -120px;
+}
+.job-11{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 670px;
+  margin-top: -120px;
+}
+.job-12{
+  background-color: rgba(255, 246, 230, 1);
+  width: 300px;
+  height: 120px;
+  margin-left: 990px;
+  margin-top: -120px;
+}
